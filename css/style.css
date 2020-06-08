@@ -51,6 +51,7 @@ form{
 	margin-top: 2rem;
 }
 form legend{
+	width: 100%;
 	font-family: var(--fuenteSecundaria);
 	font-size: 2rem;
 	text-align: center;
@@ -75,7 +76,7 @@ legend span{
 }
 .campo{
 
-	 padding: .5rem; 
+	 padding: .5rem 0; 
 }
 .campo label{
 	font-size: 1.2rem;
@@ -98,6 +99,7 @@ legend span{
 	border: none;
 	color: white;
 	padding: 1rem 4rem;
+	text-transform: uppercase;
 	font-size: 1.2rem;
 	transition: background-color .5s ease-in-out;
 	flex: 1;
