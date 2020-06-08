@@ -8,8 +8,8 @@
 
 <div class="bg-amarillo contenedor sombra">
 	<form id="contacto" action="#">
-		<legend>Añada un campo 
-			<span>Todos los campos son obligatorios	</span> 
+		<legend>Añada un contacto
+			<br><span>Todos los campos son obligatorios	</span> 
 		</legend>
 
 		<div class="campos">
@@ -26,11 +26,13 @@
 				<label for="nombre">Telefono</label>
 			    <input type="tel" placeholder="Nombre de contacto" id="nombre">
 			</div>
-			<div class="campo enviar">
-				<input type="submit" value="AÑADIR">
-			</div>
+			
 			
 		</div>
+
+		<div class="campo enviar">
+				<input type="submit" value="AÑADIR">
+			</div>
 
 
 	</form>

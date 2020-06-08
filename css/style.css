@@ -1,0 +1,63 @@
+/** Custom properties - permite crear variables**/
+:root{
+	--primario:#C2158B;
+	--secundario:#FFC107;
+	--primarioOscuro:rgb(156,10,69);
+    --fuentePrimaria:'Arial', Helvetica, sans-serif;
+	--fuenteSecundaria:'Poppins', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+	background-color: var(--primario);
+	font-family: var(--fuentePrimaria);
+}
+.contenedor{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.bg-amarillo{
+	background-color: var(--secundario);
+}
+.sombra{
+	-webkit-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
+    box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
+}
+h1, h2{
+	font-family: var(--fuenteSecundaria);
+	text-align: center;
+	margin: 0;
+}
+h1{
+	padding: 20px;
+	color:#FAFAFA;
+}
+.contenedor-barra{
+	background-color: var(--primarioOscuro);
+}
+
+/** Formulario **/
+
+form{
+	padding: 3rem;
+	margin-top: 2rem;
+}
+form legend{
+	font-family: var(--fuenteSecundaria);
+	font-size: 2rem;
+	text-align: center;
+}
+legend span{
+	font-size: 1rem;
+	margin-top: 1rem;
+	clear: both;
+	display: block;
+}
+
