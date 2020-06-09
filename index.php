@@ -38,16 +38,16 @@
 	</form>
 </div>
 
-<div class="bg-blanco contenedor sombra contactos">
-	<div class="contenedor-contactos">
+<div class="contenedor bg-blanco sombra contactos">
+	<div class="contenedorContactos">
 	    <h2>Contactos</h2>
 
 	    <input type="text" id="buscar" class="buscador sombra" placeholder="Buscar Contactos...">
 
-	    <p class="total-contactops"><span>2</span> Contactos</p>
+	    <p class="total-contactos"><span>2</span> Contactos</p>
 
 	    <div class="contenedor-tabla">
-	    	<table id="listado">
+	    	<table id="listado-contactos" class="listado-contactos">
 	    		<thead>
 	    			<tr>
 	    				<th>Nombre</th>
@@ -62,36 +62,42 @@
 	    			         <td>udemy</td>
 	    			         <td>01938893</td>
 	    			         <td>
-	    			             <a class="btn-editar btn" href="#">
+	    			         	<a class="btn-editar btn" href="#">
 	    			     	         <i class="fas fa-pen-square"></i>
-	    			        	 </a>
-	    			           <button data-id="1" type="button" clabtn-borrar btn">
+	    			        	</a>
+	    			           <button type="button" class="borrar btn">
 	    			     	       <i class="fas fa-trash-alt"></i>
 	    			           </button>
+	    			         </td>		             
+	    			       
 	    			    </tr>
 	    			    <tr>
 	    			         <td>Jorge</td>
 	    			         <td>udemy</td>
 	    			         <td>01938893</td>
 	    			         <td>
-	    			             <a class="btn-editar btn" href="#">
+	    			         	<a class="btn-editar btn" href="#">
 	    			     	         <i class="fas fa-pen-square"></i>
-	    			        	 </a>
-	    			           <button data-id="1" type="button" clabtn-borrar btn">
+	    			        	</a>
+	    			           <button type="button" class="borrar btn">
 	    			     	       <i class="fas fa-trash-alt"></i>
 	    			           </button>
+	    			         </td>
+	    			             
 	    			    </tr>
 	    			    <tr>
 	    			         <td>santiago</td>
 	    			         <td>udemy</td>
 	    			         <td>01938893</td>
 	    			         <td>
-	    			             <a class="btn-editar btn" href="#">
+	    			         	<a class="btn-editar btn" href="#">
 	    			     	         <i class="fas fa-pen-square"></i>
-	    			        	 </a>
-	    			           <button data-id="1" type="button" clabtn-borrar btn">
+	    			        	</a>
+	    			           <button type="button" class="borrar btn">
 	    			     	       <i class="fas fa-trash-alt"></i>
 	    			           </button>
+	    			         </td>
+	    			             
 	    			    </tr>
 	    		</tbody>
 	    	</table>
