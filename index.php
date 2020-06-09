@@ -38,5 +38,70 @@
 	</form>
 </div>
 
+<div class="bg-blanco contenedor sombra contactos">
+	<div class="contenedor-contactos">
+	    <h2>Contactos</h2>
+
+	    <input type="text" id="buscar" class="buscador sombra" placeholder="Buscar Contactos...">
+
+	    <p class="total-contactops"><span>2</span> Contactos</p>
+
+	    <div class="contenedor-tabla">
+	    	<table id="listado">
+	    		<thead>
+	    			<tr>
+	    				<th>Nombre</th>
+	    				<th>Empresa</th>
+	    				<th>Telefono</th>
+	    				<th>Acciones</th>
+	    			</tr>
+	    		</thead>
+	    		<tbody>
+	    		        <tr>
+	    			         <td>Juan</td>
+	    			         <td>udemy</td>
+	    			         <td>01938893</td>
+	    			         <td>
+	    			             <a class="btn-editar btn" href="#">
+	    			     	         <i class="fas fa-pen-square"></i>
+	    			        	 </a>
+	    			           <button data-id="1" type="button" clabtn-borrar btn">
+	    			     	       <i class="fas fa-trash-alt"></i>
+	    			           </button>
+	    			    </tr>
+	    			    <tr>
+	    			         <td>Jorge</td>
+	    			         <td>udemy</td>
+	    			         <td>01938893</td>
+	    			         <td>
+	    			             <a class="btn-editar btn" href="#">
+	    			     	         <i class="fas fa-pen-square"></i>
+	    			        	 </a>
+	    			           <button data-id="1" type="button" clabtn-borrar btn">
+	    			     	       <i class="fas fa-trash-alt"></i>
+	    			           </button>
+	    			    </tr>
+	    			    <tr>
+	    			         <td>santiago</td>
+	    			         <td>udemy</td>
+	    			         <td>01938893</td>
+	    			         <td>
+	    			             <a class="btn-editar btn" href="#">
+	    			     	         <i class="fas fa-pen-square"></i>
+	    			        	 </a>
+	    			           <button data-id="1" type="button" clabtn-borrar btn">
+	    			     	       <i class="fas fa-trash-alt"></i>
+	    			           </button>
+	    			    </tr>
+	    		</tbody>
+	    	</table>
+	    </div>
+    </div>
+</div>
+
+
+
+
+
 <?php include 'inc/vista/footer.php'; ?>
 
