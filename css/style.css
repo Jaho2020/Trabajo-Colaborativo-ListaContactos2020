@@ -201,3 +201,24 @@ legend span{
     background-color: transparent!important; 
     border: none;
 }
+/** Notificaciones **/
+.notificacion{
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	padding: 1rem 3rem;
+	opacity: 0;
+	transition: opacity .5s
+}
+.visible{
+	opacity: 1;
+}
+/** Colores de la notificacion **/
+.correcto{
+    background-color: rgb(179,241,117);
+    color: green;
+}
+.error{
+    background-color: rgb(238,148,166);
+    color: rgb(163,0,33);
+}
