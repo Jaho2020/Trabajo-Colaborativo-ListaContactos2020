@@ -1,9 +1,4 @@
 
-/* Integrantes */
-/* Carlos Julian Cordero */
-/* Jorge Hernan Castro */
-/* Julian Antonio Vallejo */
-
 <?php include 'inc/vista/header.php'; ?>
 
 <div class="contenedor-barra">
@@ -66,10 +61,10 @@
 	    			         <td>udemy</td>
 	    			         <td>01938893</td>
 	    			         <td>
-	    			         	<a class="btn-editar btn" href="#">
+	    			         	<a class="btn-editar btn" href="editar.php?id=1">
 	    			     	         <i class="fas fa-pen-square"></i>
 	    			        	</a>
-	    			           <button type="button" class="borrar btn">
+	    			           <button data-id="1" type="button" class="borrar btn">
 	    			     	       <i class="fas fa-trash-alt"></i>
 	    			           </button>
 	    			         </td>		             
@@ -80,10 +75,10 @@
 	    			         <td>udemy</td>
 	    			         <td>01938893</td>
 	    			         <td>
-	    			         	<a class="btn-editar btn" href="#">
+	    			         	<a class="btn-editar btn" href="editar.php?id=1">
 	    			     	         <i class="fas fa-pen-square"></i>
 	    			        	</a>
-	    			           <button type="button" class="borrar btn">
+	    			           <button data-id="1" type="button" class="borrar btn">
 	    			     	       <i class="fas fa-trash-alt"></i>
 	    			           </button>
 	    			         </td>
@@ -94,10 +89,10 @@
 	    			         <td>udemy</td>
 	    			         <td>01938893</td>
 	    			         <td>
-	    			         	<a class="btn-editar btn" href="#">
+	    			         	<a class="btn-editar btn" href="editar.php?id=1">
 	    			     	         <i class="fas fa-pen-square"></i>
 	    			        	</a>
-	    			           <button type="button" class="borrar btn">
+	    			           <button data-id="1" type="button" class="borrar btn">
 	    			     	       <i class="fas fa-trash-alt"></i>
 	    			           </button>
 	    			         </td>
