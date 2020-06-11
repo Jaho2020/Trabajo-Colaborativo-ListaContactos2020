@@ -1,4 +1,3 @@
-
 <?php 
     include 'inc/funciones/funciones.php';
     include 'inc/vista/header.php';

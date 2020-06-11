@@ -66,7 +66,7 @@ function insertarBD(datos) {
      // pasar los datos
      xhr.onload = function() {
           if(this.status === 200) {
-               console.log(JSON.parse( xhr.responseText) ); 
+               console.log(JSON.parse(xhr.responseText)); 
                // leemos la respuesta de PHP
                const respuesta = JSON.parse( xhr.responseText);
 
