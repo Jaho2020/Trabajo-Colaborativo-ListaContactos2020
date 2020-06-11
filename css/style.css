@@ -28,6 +28,33 @@ body{
 .bg-blanco{
 	background-color: #ffffff;
 }
+.barra{
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	align-items: center;
+}
+/** Botones **/
+.btn{
+   font-size:2rem;
+   text-decoration: none; 
+}
+.btn-editar{
+    color: var(--secundario);
+}
+.btn-borrar{
+    color: var(--primario);
+}
+.volver{
+	background-color: var(--secundario);
+	border-radius: 5px;
+	text-align: center;
+	color: #000000;
+	font-weight: 700;
+	font-size: 1.2rem;
+	padding: .5rem;
+}
+
+
 .sombra{
 	-webkit-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
     -moz-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
@@ -174,13 +201,24 @@ legend span{
     background-color: transparent!important; 
     border: none;
 }
-.btn{
-   font-size:2rem;
-   text-decoration: none; 
+/** Notificaciones **/
+.notificacion{
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	padding: 1rem 3rem;
+	opacity: 0;
+	transition: opacity .5s
 }
-.btn-editar{
-    color: var(--secundario);
+.visible{
+	opacity: 1;
 }
-.btn-borrar{
-    color: var(--primario);
+/** Colores de la notificacion **/
+.correcto{
+    background-color: rgb(179,241,117);
+    color: green;
+}
+.error{
+    background-color: rgb(238,148,166);
+    color: rgb(163,0,33);
 }
