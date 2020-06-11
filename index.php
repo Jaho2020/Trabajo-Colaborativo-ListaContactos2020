@@ -1,4 +1,8 @@
 
+/* Integrantes */
+/* Carlos Julian Cordero */
+/* Jorge Hernan Castro */
+/* Julian Antonio Vallejo */
 
 <?php include 'inc/vista/header.php'; ?>
 
