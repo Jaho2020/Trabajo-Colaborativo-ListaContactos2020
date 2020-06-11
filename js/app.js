@@ -72,20 +72,20 @@ function insertarBD(datos) {
               const iconoEditar = document.createElement('i');
               iconoEditar.classList.add('fas', 'fa-pen-square');
 
-              // crea el enlace para editar
+              // crea el enlace para editar los registros
               const btnEditar = document.createElement('a');
               btnEditar.appendChild(iconoEditar);
               btnEditar.href = `editar.php?id=${respuesta.datos.id_insertado}`;
               btnEditar.classList.add('btn', 'btn-editar');
 
-              // agregarlo al padre
+              // agregarlo al padre contenedor
               contenedorAcciones.appendChild(btnEditar);
 
-              // crear el icono de eliminar
+              // crear el icono de eliminar registros
               const iconoEliminar = document.createElement('i');
               iconoEliminar.classList.add('fas', 'fa-trash-alt');
 
-              // crear el boton de eliminar
+              // crear el boton de eliminar registros
               const btnEliminar = document.createElement('button');
               btnEliminar.appendChild(iconoEliminar);
               btnEliminar.setAttribute('data-id', respuesta.datos.id_insertado);
@@ -94,7 +94,7 @@ function insertarBD(datos) {
               // agregarlo al padre
               contenedorAcciones.appendChild(btnEliminar);
 
-              // Agregarlo al tr
+              // Agregarlo al tr para contenedores
               nuevoContacto.appendChild(contenedorAcciones);
 
               // agregarlo con los contactos

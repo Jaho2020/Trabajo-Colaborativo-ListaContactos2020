@@ -1,16 +1,17 @@
 <?php
 
 if ($_POST['accion'] == 'crear') {
-    //creara un nuevo registro en la base de datos
+    //creara un nuevo registro en la base de datos de la aplicacion
     require_once('../funciones/conexion.php');
 
-    //validar las entradas (seguridad)
+    //validar las entradas (seguridad) de la base de datos para que no ingresen datos q no corresponden
     $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_STRING);
     $empresa = filter_var($_POST['empresa'], FILTER_SANITIZE_STRING);
     $telefono = filter_var($_POST['telefono'], FILTER_SANITIZE_STRING);
 
     try {
         $stmt = $conn->prepare(" INSERT INTO contactos (nombre, empresa, telefono) VALUES (?, ?, ?)");
+        // sss = a 3 string
         $stmt->bind_param("sss", $nombre, $empresa, $telefono);
         $stmt->execute();
         if ($stmt->affected_rows == 1) {
