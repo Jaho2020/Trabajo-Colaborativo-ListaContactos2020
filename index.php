@@ -1,8 +1,12 @@
 <?php 
     include 'inc/funciones/funciones.php';
     include 'inc/vista/header.php';
+/* Integrantes */
+/* Carlos Julian Cordero */
+/* Jorge Hernan Castro */
+/* Julian Antonio Vallejo */
 
-?>
+<?php include 'inc/vista/header.php'; ?>
 
 <div class="contenedor-barra">
 	<h1>Agenda de Contactos - Integracion Continua</h1>
