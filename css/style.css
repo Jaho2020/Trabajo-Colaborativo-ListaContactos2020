@@ -28,6 +28,33 @@ body{
 .bg-blanco{
 	background-color: #ffffff;
 }
+.barra{
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	align-items: center;
+}
+/** Botones **/
+.btn{
+   font-size:2rem;
+   text-decoration: none; 
+}
+.btn-editar{
+    color: var(--secundario);
+}
+.btn-borrar{
+    color: var(--primario);
+}
+.volver{
+	background-color: var(--secundario);
+	border-radius: 5px;
+	text-align: center;
+	color: #000000;
+	font-weight: 700;
+	font-size: 1.2rem;
+	padding: .5rem;
+}
+
+
 .sombra{
 	-webkit-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
     -moz-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.51);
@@ -173,14 +200,4 @@ legend span{
 .listado-contactos button{
     background-color: transparent!important; 
     border: none;
-}
-.btn{
-   font-size:2rem;
-   text-decoration: none; 
-}
-.btn-editar{
-    color: var(--secundario);
-}
-.btn-borrar{
-    color: var(--primario);
 }

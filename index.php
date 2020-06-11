@@ -22,8 +22,8 @@
 			    <input type="text" placeholder="Nombre Empresa" id="empresa">
 			</div>
 			<div class="campo">
-				<label for="nombre">Telefono:</label>
-			    <input type="tel" placeholder="Telefono De Contacto" id="nombre">
+				<label for="telefono">Telefono:</label>
+			    <input type="tel" placeholder="Telefono De Contacto" id="telefono">
 			</div>
 			
 			

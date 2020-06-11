@@ -1,4 +1,4 @@
-<?php include 'inc/vista/header.php'; ?>
+<?php include ('inc/vista/header.php'); ?>
 
 <div class="contenedor-barra">
     <div class="contenedor barra">
@@ -7,6 +7,12 @@
     </div>
 </div>
 
+<div class="contenedor bg-amarillo sombra">
+    <form action="#" method="post" id="contacto">
+        <legend>Edite el contacto</span> </legend>
+        <?php include ('inc/vista/formulario.php'); ?>
 
+    </form>
+</div>
 
-<?php include 'inc/vista/footer.php'; ?>
+<?php include_once('inc/vista/footer.php'); ?>
