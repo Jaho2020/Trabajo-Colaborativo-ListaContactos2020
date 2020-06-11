@@ -47,7 +47,7 @@ function insertarBD(datos) {
     const xhr = new XMLHttpRequest();
 
     // abrir la conexion
-    xhr.open('POST', 'inc/modelos/modelo-contactos.php', true);
+    xhr.open('POST','inc/modelos/modelo-contactos.php', true);
 
     // pasar los datos
     xhr.onload = function() {
